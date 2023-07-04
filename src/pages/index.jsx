@@ -23,7 +23,7 @@ export default function Home() {
             <div className="w-1/2 flex flex-col items-center self-center">
               <AnimatedText
                 text="Turning Vision Into Reality With Code And Design."
-                className="text-5xl text-left"
+                className="!text-5xl !text-left"
               />
               <p className="my-4 text-base font-medium">As a skilled junior MERN Stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects and articles, showcasing my expertise in MERN Stack technologies and web development.
                 <br />
