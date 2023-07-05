@@ -5,6 +5,7 @@ import Image from "next/image";
 import profilePic from "@/../public/images/profile/developer-pic-2.jpg";
 import { useEffect, useRef } from "react";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
+import { Skills } from "@/components/Skills";
 
 const AnimatedNumbers = ({ value }) => {
     const ref = useRef(null);
@@ -17,13 +18,13 @@ const AnimatedNumbers = ({ value }) => {
         }
     }, [value, motionValue, isInView]);
     useEffect(() => {
-        springValue.on("change", (latest) => { 
+        springValue.on("change", (latest) => {
             if (ref.current && latest.toFixed(0) <= value) {
                 ref.current.textContent = latest.toFixed(0);
             }
         })
     }, [value, springValue])
-    
+
     return <span ref={ref}></span>
 }
 
@@ -67,10 +68,12 @@ const about = () => {
                                 <span className="inline-block text-7xl font-bold">
                                     <AnimatedNumbers value={2} />+
                                 </span>
-                                <h2 className="text-xl font-medium capitalize text-dark/75">Years Of Experiences</h2>
+                                <h2 className="text-xl font-medium capitalize text-dark/75">Years Of Experience</h2>
                             </div>
                         </div>
                     </div>
+
+                    <Skills />
                 </Layout>
             </main>
         </>
