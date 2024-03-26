@@ -1,27 +1,24 @@
-const {fontFamily} = require("tailwindcss/defaultTheme")
-
 module.exports = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
-  theme: {
-    extend: {
-      fontFamily: {
-        mont: ['var(--font-mont)', ...fontFamily.sans]
-      },
-      colors: {
-        dark: "#1b1b1b",
-        light: "#f5f5f5",
-        primary: "#B63E96", // 240,86,199
-        primaryDark: "#58E6D9", // 80,230,217
-      },
-      animation: {
-        "spin-slow": "spin 8s linear infinite"
-      },
-      backgroundImage: {
-        circularLight: "repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #F5F5F5 5px, #F5F5F5 100px)"
-      }
+    content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+    theme: {
+        extend: {
+            fontFamily: {
+                ubuntu: ["var(--font-ubuntu)"],
+                ibmplexmono: ["IBM Plex Mono", "monospace"],
+            },
+            colors: {
+                bg1: "#292F36",
+                bg2: "#1A1E23",
+                brand1: "#12F7D6",
+                brand2: "#98FAEC",
+                gray: "#43454D",
+                white: "#FFFFFF",
+                html: "#E54F26",
+                css: "#0C73B8",
+                js: "#E7A020",
+                react: "#28A9E0",
+            },
+        },
     },
-  },
-  plugins: [],
-}
+    plugins: [],
+};
