@@ -1,6 +1,6 @@
-import { Ubuntu, IBM_Plex_Mono } from "next/font/google";
-import "./globals.css";
+import Navbar from "@/components/Navbar/Navbar";
 import { ibm_plex_mono, ubuntu } from "@/utils/fonts";
+import "./globals.css";
 
 export const metadata = {
     title: "Tasbih's Portfolio",
@@ -15,9 +15,12 @@ export default function RootLayout({
     return (
         <html
             lang="en"
-            className={`${ubuntu.variable} ${ibm_plex_mono.variable}`}
+            className={`${ubuntu.variable} ${ibm_plex_mono.variable} max-w-screen-2xl`}
         >
-            <body>{children}</body>
+            <body>
+                <Navbar />
+                {children}
+            </body>
         </html>
     );
 }
