@@ -12,7 +12,6 @@ module.exports = {
                 brand1: "#12F7D6",
                 brand2: "#98FAEC",
                 gray: "#43454D",
-                white: "#FFFFFF",
                 html: "#E54F26",
                 css: "#0C73B8",
                 js: "#E7A020",
