@@ -1,5 +1,5 @@
-import Navbar from "@/components/Navbar/Navbar";
-import { ibm_plex_mono, ubuntu } from "@/utils/fonts";
+import Navbar from "../components/Navbar/Navbar";
+import { ibm_plex_mono, ubuntu } from "../utils/fonts";
 import "./globals.css";
 
 export const metadata = {

@@ -77,9 +77,9 @@ const Hero = () => {
                 <div className="mt-14 lg:mt-0  lg:w-2/5">
                     <h1 className="text-3xl text-white font-ubuntu font-medium">
                         <span className="font-ibmplexmono font-normal text-lg text-brand2">
-                            {"<h1>"}
+                            {"<title>"}
                         </span>
-                        <span className="px-10 block">
+                        <span className="pl-10 block">
                             Hey,
                             <br />
                             I&rsquo;m{" "}
@@ -88,12 +88,12 @@ const Hero = () => {
                             Full-Stack Developer
                         </span>
                         <span className="font-ibmplexmono font-normal text-lg text-brand2">
-                            {"</h1>"}
+                            {"</title>"}
                         </span>
                     </h1>
                     <p className="text-base text-white font-ibmplexmono font-normal">
                         <span className="font-ibmplexmono font-normal text-lg text-brand2">
-                            {"<p>"}
+                            {"<description>"}
                         </span>
                         <span className="px-10 block">
                             I help business grow by crafting amazing web
@@ -101,7 +101,7 @@ const Hero = () => {
                             likes to get stuff done,
                         </span>
                         <span className="font-ibmplexmono font-normal text-lg text-brand2">
-                            {"</p>"}
+                            {"</description>"}
                         </span>
                     </p>
                 </div>

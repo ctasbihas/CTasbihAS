@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
     return (
-        <nav className="flex items-center justify-between px-4 lg:px-10 py-4 lg:py-6 bg-bg1">
+        <nav className="flex items-center justify-between px-4 lg:px-10 py-4 lg:py-6 bg-bg1 sticky top-0">
             <div className="font-ibmplexmono font-normal text-base sm:text-2xl lg:text-3xl">
                 <code className="text-brand1">{"<C/> "}</code>
                 <span className="font-ibmplexmono text-white">CTasbihAS</span>
