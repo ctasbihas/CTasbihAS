@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar/Navbar";
+import Navbar from "../components/Navbar";
 import { ibm_plex_mono, ubuntu } from "../utils/fonts";
 import "./globals.css";
 
@@ -15,9 +15,9 @@ export default function RootLayout({
     return (
         <html
             lang="en"
-            className={`${ubuntu.variable} ${ibm_plex_mono.variable} max-w-screen-2xl`}
+            className={`${ubuntu.variable} ${ibm_plex_mono.variable} bg-bg1`}
         >
-            <body>
+            <body className="max-w-screen-2xl mx-auto">
                 <Navbar />
                 {children}
             </body>
