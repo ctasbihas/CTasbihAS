@@ -40,6 +40,7 @@ const AboutMe = () => {
                 src={Picture}
                 alt="about me background"
                 className="rounded-2xl mx-auto"
+                loading="lazy"
             />
         </section>
     );

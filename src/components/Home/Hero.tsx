@@ -20,6 +20,7 @@ const Hero = () => {
                             width={100}
                             height={100}
                             className="rounded-full border-2 border-brand1"
+                            loading="lazy"
                         />
                         <h1 className="text-3xl font-medium font-ibmplexmono text-white">
                             Tasbih Ahmed
