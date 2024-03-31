@@ -6,7 +6,7 @@ const AboutMe = () => {
         <section className="px-4 sm:px-12 py-12 bg-bg2 lg:flex items-center gap-x-8">
             {/* TODO: Fix text alignment */}
             <div>
-                <h1 className="text-3xl text-white font-ubuntu bg-bg1 border-4 border-brand1 px-8 py-4 rounded-tl-[40px] rounded-br-[40px]">
+                <h1 className="text-3xl text-white font-ubuntu bg-bg1 border-4 border-brand1 px-8 py-4 rounded-tl-[40px] rounded-br-[40px] w-fit mx-auto lg:mx-0">
                     About Me
                 </h1>
                 <div className="font-ibmplexmono font-normal bg-bg1 p-5 rounded-3xl my-10 text-brand2 space-y-2">
