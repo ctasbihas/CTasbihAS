@@ -27,8 +27,8 @@ const Footer = () => {
     ];
     return (
         <>
-            <hr className="w-4/5 mx-auto border-gray mb-5" />
-            <footer className="flex flex-col lg:flex-row-reverse gap-5 items-center justify-between py-2 lg:w-4/5 mx-auto">
+            <hr className="w-4/5 mx-auto border-gray" />
+            <footer className="flex flex-col lg:flex-row-reverse gap-5 items-center justify-between py-5 lg:w-4/5 mx-auto">
                 <div className="flex items-center justify-center gap-4">
                     {links.map((link, index) => (
                         <IconLink
