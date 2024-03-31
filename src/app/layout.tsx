@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "../components/Navbar";
 import { ibm_plex_mono, ubuntu } from "../utils/fonts";
 import "./globals.css";
@@ -20,6 +21,7 @@ export default function RootLayout({
             <body className="max-w-screen-2xl mx-auto">
                 <Navbar />
                 {children}
+                <Footer />
             </body>
         </html>
     );
